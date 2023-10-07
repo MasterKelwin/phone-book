@@ -9,7 +9,7 @@ This project are divided in two parts, the front and the api, so you need to ins
 ### Running the API
 
 cd into phone-book-api directory
-> cd api
+> cd phone-book-api
 
 Create the .env file like the env.template
 
