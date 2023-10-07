@@ -12,6 +12,9 @@ cd into phone-book-api directory
 > cd phone-book-api
 
 Create the .env file like the env.template
+````bash
+cp .env.template .env
+````
 
 download the dependencies
 
