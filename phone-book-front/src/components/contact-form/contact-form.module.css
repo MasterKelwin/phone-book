@@ -1,0 +1,10 @@
+.contactForm {
+  background-color: rgb(219, 219, 219);
+  width: calc(100vw - 2rem);
+  min-height: calc(100vh - 4rem);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  align-items: center;
+}

@@ -1,0 +1,51 @@
+.div {
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.noLabelDiv {
+  width: 100%;
+  position: relative;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  padding: 10px 10px 10px 30px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.svg {
+  position: absolute;
+  left: 10px;
+  top: 65%;
+  transform: translateY(-50%);
+  color: #777;
+}
+
+.noLabelSvg {
+  position: absolute;
+  left: 10px;
+  top: 55%;
+  transform: translateY(-50%);
+  color: #777;
+}
+
+
+
+
+
+
+
+
+

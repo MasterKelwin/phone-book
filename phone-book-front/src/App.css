@@ -1,0 +1,23 @@
+.App {
+  background-color: rgb(237, 237, 237);
+  width: calc(100vw - 2rem);
+  min-height: calc(100vh - 4rem);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  align-items: center;
+
+  .add-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    > span {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  }
+}
+

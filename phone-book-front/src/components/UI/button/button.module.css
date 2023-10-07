@@ -1,0 +1,39 @@
+
+.button {
+  margin: 0;
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  background-color: #347BF6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: .6rem 1.2rem;
+  cursor: pointer;
+  height: 100%;
+}
+
+.button:hover {
+  background-color: #4d89f2;
+  transition: .2s ease-in-out;
+
+}
+
+.delete {
+  margin: 0;
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  background-color: #CB444A;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: .6rem;
+  cursor: pointer;
+  height: 100%;
+}
+
+.delete:hover {
+  background-color: #db5e65;
+  transition: .2s ease-in-out;
+}
