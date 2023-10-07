@@ -50,5 +50,5 @@ npm i -D
 Run the project
 
 ````bash
-npm run dev
+npm run start
 ````
