@@ -1,10 +1,10 @@
 # PHONE BOOOK
 
-This project is a CRUD using React, Node, Prisma, and SQLite.
-To create a contact, just click on "Add contact" button.
-To view, it's just go to the main page.
-To update a contact, doble click in it's card.
-To delete, just click the trash button.
+This project is a CRUD using React, Node, Prisma, and SQLite.  
+To create a contact, just click on "Add contact" button.  
+To view, it's just go to the main page.  
+To update a contact, doble click in it's card.  
+To delete, just click the trash button.  
 
 ## Running the project
 
