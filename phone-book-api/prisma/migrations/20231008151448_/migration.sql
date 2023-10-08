@@ -1,7 +1,7 @@
 -- CreateTable
 CREATE TABLE "contacts" (
     "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-    "name" TEXT,
+    "name" TEXT NOT NULL,
     "lastname" TEXT NOT NULL,
-    "number" INTEGER NOT NULL
+    "number" TEXT NOT NULL
 );

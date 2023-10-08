@@ -1,15 +1,21 @@
 # PHONE BOOOK
 
 This project is a CRUD using React, Node, Prisma, and SQLite.
+To create a contact, just click on "Add contact" button.
+To view, it's just go to the main page.
+To update a contact, doble click in it's card.
+To delete, just click the trash button.
 
 ## Running the project
 
 This project are divided in two parts, the front and the api, so you need to install both separate.
 
-### Running the API
+### Running the api
 
 cd into phone-book-api directory
-> cd phone-book-api
+````bash
+cd phone-book-api
+````
 
 Create the .env file like the env.template
 ````bash
@@ -33,7 +39,7 @@ Run the api
 npm run dev
 ````
 
-### Runnig the client
+### Runnig the front
 
 From root directory, cd into client
 

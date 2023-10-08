@@ -1,13 +1,14 @@
 import Express from 'express';
 import Cors from 'cors';
-import ContactController from './controllers/ContactController';
 import router from './router';
+import dotenv from 'dotenv';
 
 const app = Express();
 app.use(Express.json());
 app.use(Cors());
+dotenv.config();
 
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 app.use('/', router);
 
