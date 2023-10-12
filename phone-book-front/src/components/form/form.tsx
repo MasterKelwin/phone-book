@@ -4,7 +4,6 @@ import Input from '../UI/input/input';
 import style from './form.module.css';
 import { faPhone, faCancel, faSave, faUser } from '@fortawesome/free-solid-svg-icons'
 import ContactService from '../../services/ContactService';
-import { IContact } from '../../interfaces/contact.interface';
 
 interface Props {
   name?: string
@@ -14,7 +13,6 @@ interface Props {
   number?: string
   setNumber: any,
 }
-
 
 export default function Form({
   name,
@@ -37,13 +35,7 @@ export default function Form({
       id: Number(params.id)
     }
 
-    console.log(formData)
-
-    document.getElementById("form")?.addEventListener("submit", function(event) {
-      event.preventDefault();
-    });
-
-    if((formData.name || formData.lastname) && formData.number) {
+    if(formData.name && formData.lastname && formData.number) {
       ContactService.create(formData);
       navigation('/');
     }
@@ -54,7 +46,7 @@ export default function Form({
   }
 
   return (
-    <form className={style.form} id='form'>
+    <form className={style.form} id='form' onSubmit={submit}>
       <Input 
       icon={faUser}
       type='text' 
@@ -83,7 +75,7 @@ export default function Form({
       placeholder='Phone Number'/>
       <div className={style.buttons}>
         <Button icon={faCancel} content='Cancel' action={cancel}/>
-        <Button icon={faSave} content='Submit' action={submit}/>
+        <Button icon={faSave} content='Submit' type='submit'/>
       </div>
     </form>
   )

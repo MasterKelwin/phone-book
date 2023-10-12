@@ -9,10 +9,10 @@ import { IContact } from '../../interfaces/contact.interface'
 
 export default function ContactForm() {
   const params = useParams();
-  let contact: Partial<IContact> = {};
-  const [name, setName] = useState<string>();
-  const [lastname, setLastName] = useState<string>();
-  const [number, setNumber] = useState<string>();
+  const [name, setName] = useState<string>('');
+  const [lastname, setLastName] = useState<string>('');
+  const [number, setNumber] = useState<string>('');
+  let contact!: IContact;
 
   useEffect(() => {
     if(params.id) {
